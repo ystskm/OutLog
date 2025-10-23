@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="0.204">
+  <testsuite name="CRUD Operations" errors="0" failures="0" skipped="0" timestamp="2025-10-23T03:18:35" time="0.185" tests="1">
+    <testcase classname="CRUD Operations › Object Condition Test 1. Basic API Test" name="CRUD Operations › Object Condition Test 1. Basic API Test" time="0.03">
+    </testcase>
+  </testsuite>
+</testsuites>
