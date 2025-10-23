@@ -318,7 +318,7 @@
    */
   function _getArgs(msg, tag, typ) {
     /** タイムスタンプとタグ、タイプを含むプレフィックス文字列 */
-    return [ `[${typ.toUpperCase()}][${new Date().toISOString()}] - (${tag})` ].concat(msg);
+    return [ `[${new Date().toISOString()}][${typ.toUpperCase()}] - (${tag})` ].concat(msg);
   }
 
   /**

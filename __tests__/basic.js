@@ -4,9 +4,9 @@
  */
 const env = require('./env.json'); // env.json のパスは適宜修正してください
 const settings = env.testCase.basic;
-// const out = require('../index.js')('test/basic.js');
+const out = require('../index.js')('test/basic.js');
 // const out = require('../dist/OutLog.js')('test/basic.js');
-const out = require('../dist/OutLog.min.js')('test/basic.js');
+// const out = require('../dist/OutLog.min.js')('test/basic.js');
 describe('CRUD Operations', () => {
 
     // Connect (beforeAll)
