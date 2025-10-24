@@ -92,102 +92,102 @@
 
     /**
      * Fatal レベルのログを出力します (レベル 0)。
-     * @param {*} msg - 出力するメッセージまたはオブジェクト。
+     * @param {...*} msg - 出力するメッセージまたはオブジェクト。
      * @returns {Array<*>} - ログ出力に使用された引数の配列。
      */
-    fatal(msg) {
-      return this.f(msg, 'f');
+    fatal() {
+      return this.Log(Array.from(arguments), 'f');
     }
     /**
      * Error レベルのログを出力します (レベル 1)。
-     * @param {*} msg - 出力するメッセージまたはオブジェクト。
+     * @param {...*} msg - 出力するメッセージまたはオブジェクト。
      * @returns {Array<*>} - ログ出力に使用された引数の配列。
      */
-    error(msg) {
-      return this.e(msg, 'e');
+    error() {
+      return this.Log(Array.from(arguments), 'e');
     }
     /**
      * Warning レベルのログを出力します (レベル 2)。
-     * @param {*} msg - 出力するメッセージまたはオブジェクト。
+     * @param {...*} msg - 出力するメッセージまたはオブジェクト。
      * @returns {Array<*>} - ログ出力に使用された引数の配列。
      */
-    warn(msg) {
-      return this.w(msg, 'w');
+    warn() {
+      return this.Log(Array.from(arguments), 'w');
     }
     /**
      * Info レベルのログを出力します (レベル 3)。
-     * @param {*} msg - 出力するメッセージまたはオブジェクト。
+     * @param {...*} msg - 出力するメッセージまたはオブジェクト。
      * @returns {Array<*>} - ログ出力に使用された引数の配列。
      */
-    info(msg) {
-      return this.i(msg, 'i');
+    info() {
+      return this.Log(Array.from(arguments), 'i');
     }
     /**
      * Debug レベルのログを出力します (レベル 4)。
-     * @param {*} msg - 出力するメッセージまたはオブジェクト。
+     * @param {...*} msg - 出力するメッセージまたはオブジェクト。
      * @returns {Array<*>} - ログ出力に使用された引数の配列。
      */
-    debug(msg) {
-      return this.d(msg, 'd');
+    debug() {
+      return this.Log(Array.from(arguments), 'd');
     }
     /**
      * Trace/Verbose レベルのログを出力します (レベル 5)。
-     * @param {*} msg - 出力するメッセージまたはオブジェクト。
+     * @param {...*} msg - 出力するメッセージまたはオブジェクト。
      * @returns {Array<*>} - ログ出力に使用された引数の配列。
      */
-    trace(msg) {
-      return this.v(msg, 'v');
+    trace() {
+      return this.Log(Array.from(arguments), 'v');
     }
 
     // 短縮形メソッド
 
     /**
      * Fatal レベルのログを出力します (短縮形 f)。
-     * @param {*} msg - 出力するメッセージまたはオブジェクト。
+     * @param {...*} msg - 出力するメッセージまたはオブジェクト。
      * @returns {Array<*>} - ログ出力に使用された引数の配列。
      */
-    f(msg) {
-      return this.Log(msg, 'f');
+    f() {
+      return this.Log(Array.from(arguments), 'f');
     }
     /**
      * Error レベルのログを出力します (短縮形 e)。
-     * @param {*} msg - 出力するメッセージまたはオブジェクト。
+     * @param {...*} msg - 出力するメッセージまたはオブジェクト。
      * @returns {Array<*>} - ログ出力に使用された引数の配列。
      */
-    e(msg) {
-      return this.Log(msg, 'e');
+    e() {
+      return this.Log(Array.from(arguments), 'e');
     }
     /**
      * Warning レベルのログを出力します (短縮形 w)。
-     * @param {*} msg - 出力するメッセージまたはオブジェクト。
+     * @param {...*} msg - 出力するメッセージまたはオブジェクト。
      * @returns {Array<*>} - ログ出力に使用された引数の配列。
      */
-    w(msg) {
-      return this.Log(msg, 'w');
+    w() {
+      return this.Log(Array.from(arguments), 'w');
     }
     /**
      * Info レベルのログを出力します (短縮形 i)。
-     * @param {*} msg - 出力するメッセージまたはオブジェクト。
+     * @param {...*} msg - 出力するメッセージまたはオブジェクト。
      * @returns {Array<*>} - ログ出力に使用された引数の配列。
      */
-    i(msg) {
-      return this.Log(msg, 'i');
+    i() {
+      return this.Log(Array.from(arguments), 'i');
     }
     /**
      * Debug レベルのログを出力します (短縮形 d)。
-     * @param {*} msg - 出力するメッセージまたはオブジェクト。
+     * @param {...*} msg - 出力するメッセージまたはオブジェクト。
      * @returns {Array<*>} - ログ出力に使用された引数の配列。
      */
-    d(msg) {
-      return this.Log(msg, 'd');
+    d() {
+      return this.Log(Array.from(arguments), 'd');
     }
     /**
      * Trace/Verbose レベルのログを出力します (短縮形 v)。
-     * @param {*} msg - 出力するメッセージまたはオブジェクト。
+     * @param {...*} msg - 出力するメッセージまたはオブジェクト。
      * @returns {Array<*>} - ログ出力に使用された引数の配列。
      */
-    v(msg) {
-      return this.Log(msg, 'v');
+    v() {
+      return this.Log(Array.from(arguments), 'v');
     }
 
     /**

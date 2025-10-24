@@ -53,6 +53,12 @@ describe('CRUD Operations', () => {
             expect(out.info ('expect3').length).toBe(0);
             expect(out.debug('expect4').length).toBe(0);
             expect(out.trace('expect5').length).toBe(0);
+            expect(out.f('expect0').length).toBe(2);
+            expect(out.e('expect1').length).toBe(0);
+            expect(out.w ('expect2').length).toBe(0);
+            expect(out.i ('expect3').length).toBe(0);
+            expect(out.d('expect4').length).toBe(0);
+            expect(out.v('expect5').length).toBe(0);
             expect(out.Log('expectX', 'x').length).toBe(2);
             console.log('Supported DB functions verified: ' + funcs().join('|'));
         });

@@ -1,11 +1,10 @@
 {
-  "name": "outlog",
-  "version": "1.0.1",
+  "name": "@synquery/outlog",
+  "version": "1.0.2",
   "description": "Simple standard out format interface",
   "main": "index.js",
   "scripts": {
     "jest": "npx jest --clearCache && npx jest --verbose=false",
-    "jest-h": "npx jest --clearCache && npx jest --detectOpenHandles",
     "jest-c": "npx jest --clearCache && npx jest --coverage",
     "build": "node build.js"
   },
