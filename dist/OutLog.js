@@ -1,3 +1,4 @@
+// (Tue, 28 Oct 2025 15:47:23 GMT) MINIFIED BY @synquery/ms
 /**
  * OutLog クラスのインスタンス生成とエクスポートを管理する即時関数。
  * @param {function(): function(string): OutLog} mx - OutLog の実装を返すファクトリ関数。

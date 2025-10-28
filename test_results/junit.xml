@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="1" failures="0" errors="0" time="0.253">
-  <testsuite name="CRUD Operations" errors="0" failures="0" skipped="0" timestamp="2025-10-24T02:55:05" time="0.211" tests="1">
-    <testcase classname="CRUD Operations › Object Condition Test 1. Basic API Test" name="CRUD Operations › Object Condition Test 1. Basic API Test" time="0.031">
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="0.221">
+  <testsuite name="CRUD Operations" errors="0" failures="0" skipped="0" timestamp="2025-10-28T09:56:41" time="0.202" tests="1">
+    <testcase classname="CRUD Operations › Object Condition Test 1. Basic API Test" name="CRUD Operations › Object Condition Test 1. Basic API Test" time="0.034">
     </testcase>
   </testsuite>
 </testsuites>
